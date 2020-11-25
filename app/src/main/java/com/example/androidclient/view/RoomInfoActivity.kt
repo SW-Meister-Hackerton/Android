@@ -39,7 +39,7 @@ class RoomInfoActivity : AppCompatActivity() {
                 selectTeam = if(position == 0){
                     ""
                 } else {
-                    teamList[position - 1]
+                    teamList[position]
                 }
             }
 
